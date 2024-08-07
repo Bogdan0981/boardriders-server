@@ -1,0 +1,114 @@
+.header
+    margin-bottom: 2.6rem
+    &-top
+        background: $color-black
+        display: flex
+        justify-content: space-between
+        padding: 1.5rem 16rem
+        &-city
+            display: flex
+            align-items: center
+            margin-right: 3.5rem
+            p
+                color: $color-white
+                font-size: 1.2rem
+                font-weight: 500
+                line-height: 20%
+                letter-spacing: -2
+                margin-right: .7rem
+            i
+                color: $color-white
+                margin-right: 1.5rem
+                font-size: 2rem
+            &-select
+                background: none
+                border: none
+                color: $color-white
+                font-size: 1.2rem 
+                font-weight: 500
+                &:focus
+                    outline: none
+        &-list
+            list-style: none
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &-item
+                &:not(:last-child)
+                    margin-right: 2.6rem    
+                a
+                    color: $color-white
+                    font-size: 1.2rem 
+                    font-weight: 500
+        &-left
+            display: flex
+            justify-content: space-between
+        &-right
+            display: flex
+            justify-content: space-between
+            &-activity
+                display: flex
+                align-items: center
+                color: $color-white
+                font-size: 1.2rem
+                &:not(:last-child)
+                    margin-right: 3.3rem
+                i
+                    color: $color-grey
+                    margin-right: 1.5rem
+                    font-size: 1.8rem
+    &-medium
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 2.2rem 16.1rem
+        &-list
+            list-style: none
+            display: flex
+            align-items: center
+            justify-content: space-between
+            &-item
+                &:not(:last-child)
+                    margin-right: 2.5rem
+                a
+                    color: $color-black
+                    font-size: 1.4rem 
+                    font-weight: 500
+        &-actions
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &-blocks
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            font-size: .8rem 
+            font-weight: 500
+            i
+                font-size: 2.2rem
+            &:not(:last-child)
+                margin-right: 2.5rem
+    &-bottom
+        background: $color-grey-light
+        padding: 1.7rem 0 1.8rem 16rem
+        &-list
+            display: flex
+            list-style: none
+            &-item
+                transition: all .3
+                &:active
+                    text-decoration: none
+                &:not(:last-child)
+                    margin-right: 2.5rem
+                a
+                    color: $color-black
+                    font-size: 1.4rem 
+                    font-weight: 500
+                    &:hover
+                        color: $color-orange
+                        text-decoration: none
+                    &:active
+                        color: $color-black
+                    &:focus
+                        text-decoration: none

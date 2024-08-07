@@ -1,0 +1,87 @@
+.hero-button
+    background: $color-white
+    padding: 3.7rem 1rem
+    border: none
+    font-size: 2rem
+    transition: all .3s
+    &:focus
+        outline: none
+    &:hover
+        background: $color-orange
+        cursor: pointer
+    &:active
+        background: $color-white
+
+.new-button
+    background: none
+    border: none
+    transition: all .3s
+    font-size: 4rem
+    &:hover
+        color: $color-orange
+        cursor: pointer
+    &:active
+        color: $color-black
+    &:focus
+        outline: none
+        
+
+.show-more
+    background: $color-black
+    color: $color-white
+    border: none
+    font-size: 1.6rem 
+    padding: 1rem 9rem
+    transition: all .3s
+    &:hover
+        color: $color-orange
+        cursor: pointer
+    &:active
+        color: $color-white
+    &:focus
+        outline: none
+    &-container
+        text-align: center
+
+.block-button
+    background: $color-white
+    border: none
+    font-size: 1.6rem 
+    font-weight: 500
+    padding: 1rem 8.1rem
+    transition: all .3s
+    &:focus
+        outline: none
+    &:hover
+        cursor: pointer
+        background: $color-orange
+    &:active
+        background: $color-white
+
+.block-search
+    button
+        background: none
+        border: none
+        font-size: 1.6rem
+        transition: all .3s
+        &:focus
+            outline: none
+        &:hover
+            color: $color-white
+            background: $color-black
+        &:active
+            background: none
+            color: $color-black
+
+
+.categories-button
+    background: none
+    border: none
+    transition: all .3s
+    font-size: 4rem
+    &:focus
+        outline: none
+    &:hover
+        @include hoverButton
+    &:active
+        @include activeButton

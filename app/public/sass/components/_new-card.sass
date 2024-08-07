@@ -1,0 +1,56 @@
+.new-card
+    &__sale
+        color: $color-white
+        &-container
+            background: $color-orange
+            padding: 0 1rem
+            position: absolute
+            left: 0
+            bottom: 0
+    &:not(:last-child)
+        margin-right: 2.5rem
+    &-top
+        position: relative
+        display: flex
+        flex-direction: column
+        align-items: start
+        background: $color-grey-light
+        padding: 1.5rem 1.5rem 5rem 2.5rem
+    &-button
+        background: $color-white
+        border-radius: 100000rem
+        border: none
+        padding: .5rem 1rem
+        font-size: 2rem
+        transition: all .3s
+        &:hover
+            cursor: pointer
+            background: $color-black
+            color: $color-white
+        &__active
+            background: $color-black
+            color: $color-white
+        &:focus
+            outline: none
+        &-container
+            width: 100%
+            text-align: right
+    &-title
+        font-size: 1.6rem
+        font-weight: 500
+    &-descr
+        color: $color-grey-82
+        font-size: 1.4rem
+        font-weight: 500
+    &-price
+        &-line
+            text-decoration: line-through
+        &__sale
+            color: $color-orange
+        font-size: 1.8rem 
+        font-weight: 500
+        &:not(:last-child)
+            margin-right: 1.5rem
+        &-container
+            display: flex
+        
