@@ -85,3 +85,25 @@
         @include hoverButton
     &:active
         @include activeButton
+
+
+.products-buttons-button
+    background: $color-grey-light
+    color: $color-black
+    border: none
+    font-size: 1.2rem 
+    font-weight: 500
+    padding: 1.5rem 11.4rem 1.5rem 2rem
+    transition: all .3s
+    &__active
+        i
+            transform: rotate(180deg)
+    &:focus
+        outline: none
+    &:hover
+        @include hoverButton
+    &:active
+        @include activeButton
+    i
+        margin-right: 5.7rem
+        font-size: 1.5remz

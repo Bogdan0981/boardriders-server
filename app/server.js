@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Пример маршрута для получения данных из базы данных
-app.get("/api/data", async (req, res) => {
+app.get("/catalogeLvl1.html/api/data", async (req, res) => {
   try {
     const result = await db.query(
       "SELECT * FROM productCategory, productBrand, productSize, productTechnology, productColor"

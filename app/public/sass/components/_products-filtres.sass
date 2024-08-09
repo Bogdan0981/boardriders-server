@@ -1,0 +1,119 @@
+.products-filtres
+    font-size: 1.4rem
+    font-weight: 500
+    display: inline-block
+    margin-right: 2.6rem
+    &-count 
+        color: $color-grey
+    &-input
+        position: absolute
+        opacity: 0
+        width: 1.6rem
+        height: 1.6rem
+        cursor: pointer
+        &__range
+            -webkit-appearance: none
+            appearance: none
+            width: 100%
+            height: .5rem
+            background: $color-e0
+            outline: none
+            background: linear-gradient(to right, #EB5757 50%, #ddd 50%)
+            &::-webkit-slider-thumb
+                -webkit-appearance: none
+                appearance: none
+                width: 2.5rem
+                height: 2.5rem
+                background: $color-white
+                border-radius: 50%
+                cursor: pointer
+                border: 4px solid $color-orange
+            &::-webkit-slider-runnable-track
+                width: 100%
+                height: 2rem
+                background: transparent
+                border-radius: 5px 
+        &__search
+            background: $color-grey-light
+            margin-bottom: 2.1rem
+            border: none
+            width: 100%
+            padding: 1rem 0 1rem 1.5rem
+            font-size: 1.2rem
+            &:focus
+                outline: none
+                border: 1px solid $color-orange
+            &::placeholder
+                color: $color-black
+                font-size: 1.2rem
+        &__radio
+            appearance: none
+            margin-right: 1rem
+            &::before
+                content: ''
+                display: inline-block
+                width: 1.6rem
+                height: 1.6rem
+                border: 1px solid $color-black
+                border-radius: 10000rem
+        &__radio:focus::before
+            border-color: $color-orange
+            background: url(../icons/radioCheck/round.svg) center center no-repeat
+            background-size: 1rem 1rem
+    &-input + label
+        display: flex
+        align-items: center
+        margin-right: 1rem
+        cursor: pointer
+    &-input + label::before
+        content: ''
+        display: inline-block
+        width: 1.6rem
+        height: 1.6rem
+        border: 1px solid $color-black
+        border-radius: 10000rem
+        margin-right: 1rem
+    &-input:checked + label::before
+        border-color: $color-orange
+        background: url(../icons/checkIcon/check.svg) center center no-repeat, $color-orange
+        background-size: 50% 50%
+    &-input:checked + label
+        color: $color-orange        
+    &-input:checked ~ &-count
+        color: $color-black
+    &-filter
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 29.7rem
+        &-input
+            &-color
+                width: .5rem
+                height: 1.6rem
+                background: $color-black
+                border-radius: 1rem
+                display: block
+                margin-right: .6rem
+        &:not(:last-child)
+            margin-bottom: 1rem
+    &-price
+        position: relative
+        &-numbers
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin-bottom: 2.5rem
+            input
+                width: 10.9rem
+                height: 3.5rem
+                padding: .5rem 0 .5rem 1rem
+                border: none
+                &:focus
+                    outline: none
+                    border: 1px solid $color-orange
+            &-devider
+                width: 1.2rem
+                height: 0
+                border: 1px solid $color-grey
+                margin-right: 1rem
+                margin-left: 1rem

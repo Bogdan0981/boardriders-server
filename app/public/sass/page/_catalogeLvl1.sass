@@ -36,7 +36,47 @@
 
 .choose
     padding: 0 16rem
+    margin-bottom: 2.5rem
     &-blocks
         display: flex
         align-items: center
         justify-content: space-between
+
+.products
+    padding: 0 16rem
+    margin-bottom: 6.4rem
+    &-buttons
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 2.5rem
+        &-filter
+            display: flex
+            align-items: center
+        &-text
+            color: $color-grey-82
+            font-size: 1.4rem 
+            margin-right: 1.5rem
+        &-select
+            width: 32rem
+            border: none
+            padding: 1.5rem 2rem 1.5rem 1.5rem
+            font-size: 1.2rem
+            font-weight: 500
+            -webkit-appearance: none
+            background: url(../icons/chevron-right/chevron-down.svg) center right no-repeat, $color-grey-light 
+            background-size: 1.5rem 1rem
+            background-position-x: 28rem
+            &:focus
+                outline: none
+    &-filtres
+        padding-top: 2.5rem
+        border-top: 1px solid $color-grey-light
+        display: inline-block
+    &-cards
+        display: inline-block
+        vertical-align: top
+        &-row
+            display: flex
+            justify-content: space-between
+            margin-bottom: 4.8rem
