@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "dev": "nodemon server.js & browser-sync start --config bs-config.js"
+    "start": "nodemon server.js --port 3000",
+    "dev": "nodemon server.js & browser-sync start --config bs-config.js --port 3000"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",

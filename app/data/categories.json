@@ -1,0 +1,38 @@
+[
+  {
+    "productCategoryName": "Сноуборды",
+    "productCategoryCount": 24
+  },
+  {
+    "productCategoryName": "Крепления",
+    "productCategoryCount": 48
+  },
+  {
+    "productCategoryName": "Обувь",
+    "productCategoryCount": 50
+  },
+  {
+    "productCategoryName": "Наборы",
+    "productCategoryCount": 13
+  },
+  {
+    "productCategoryName": "Куртки",
+    "productCategoryCount": 81
+  },
+  {
+    "productCategoryName": "Штаны",
+    "productCategoryCount": 50
+  },
+  {
+    "productCategoryName": "Шлемы",
+    "productCategoryCount": 13
+  },
+  {
+    "productCategoryName": "Очки",
+    "productCategoryCount": 81
+  },
+  {
+    "productCategoryName": "Перчатки",
+    "productCategoryCount": 55
+  }
+]

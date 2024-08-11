@@ -1,0 +1,26 @@
+[
+  {
+    "productColorName": "Черный",
+    "productColorCount": 24
+  },
+  {
+    "productColorName": "Белый",
+    "productColorCount": 48
+  },
+  {
+    "productColorName": "Красный",
+    "productColorCount": 60
+  },
+  {
+    "productColorName": "Синий",
+    "productColorCount": 13
+  },
+  {
+    "productColorName": "Желтый",
+    "productColorCount": 81
+  },
+  {
+    "productColorName": "Оранжевый",
+    "productColorCount": 55
+  }
+]
